@@ -1,4 +1,13 @@
-script:
+language: cpp
+compiler: gcc
+
+install:
   - sudo apt-get -qq update
   - apt-get search .
+
+script: true
+
+branches:
+  only:
+    - master
 

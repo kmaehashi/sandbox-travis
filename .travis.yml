@@ -3,7 +3,7 @@ compiler: gcc
 
 install:
   - sudo apt-get -qq update
-  - apt-get search .
+  - apt-cache search .
 
 script: true
 

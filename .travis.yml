@@ -1,0 +1,4 @@
+script:
+  - sudo apt-get -qq update
+  - apt-get search .
+

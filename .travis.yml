@@ -2,8 +2,7 @@ language: cpp
 compiler: gcc
 
 install:
-  - sudo apt-get -qq update
-  - apt-cache search .
+  - lsb_release -c
 
 script: true
 

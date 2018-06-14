@@ -1,12 +1,4 @@
-language: cpp
-compiler: gcc
+language: python
 
-install:
-  - lsb_release -c
-
-script: true
-
-branches:
-  only:
-    - master
-
+script:
+    - pip list
